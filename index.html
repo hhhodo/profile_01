@@ -28,6 +28,7 @@
     <link href="./css/main_home.css" rel="stylesheet">
     <link href="./css/common.css" rel="stylesheet">
     <link href="./css/about.css" rel="stylesheet">
+    <link href="./css/skills.css" rel="stylesheet">
 
     <script src="./js/main.js" defer>
 
@@ -79,39 +80,105 @@
             <h2 class="section_title"> About me </h2>
             <p class="section_description">
 
-                    <ul class="about_content">
+                    <ul class="about_content max_container">
                         <li class="about_box">
-                            <span class="about_icon material-symbols-outlined" style="font-size: 4rem;">
-                                captive_portal
-                                </span>
-                            <p class="about_title"> Front-end </p>
-                            <p class="about_text"> HTML, CSS, JavaScript, TypeScript, React </p>
+                            <div class="about_icon">
+                                <span class="material-symbols-outlined">
+                                    captive_portal
+                                    </span>
+                                <p class="about_title"> Front-end </p>
+                                <p class="about_text"> HTML, CSS, JavaScript, TypeScript, React </p>
+                            </div>
                         </li>
                         
                         <li class="about_box">
-                            <span class="about_icon material-symbols-outlined" style="font-size: 4rem;">
-                                sync_saved_locally
-                                </span>
-                            <p class="about_title"> Design </p>
-                            <p class="about_text"> Photoshop, Illust, Figma </p>
+                            <div class="about_icon">
+                                <span class="material-symbols-outlined">
+                                    sync_saved_locally
+                                    </span>
+                                <p class="about_title"> Design </p>
+                                <p class="about_text"> Photoshop, Illust, Figma </p>
+                            </div>
                         </li>
                         <li class="about_box">
-                            <span class="about_icon material-symbols-outlined" style="font-size: 4rem;">
-                                group
-                                </span>
-                            <p class="about_title"> ETC </p>
-                            <p class="about_text"> Marcketing, Language </p>
+                            <div class="about_icon">
+                                <span class="material-symbols-outlined">
+                                    group
+                                    </span>
+                                <p class="about_title"> ETC </p>
+                                <p class="about_text"> Marcketing, Language </p>
+                            </div>
                         </li>
                     </ul>
             </p>
         </section>
 
         <!--skill시작-->
-        <section id="Skills" class="section_style">
+        <section id="skills" class="section_style">
             <h2 class="section_title"> My skill </h2>
             <p class="section_description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit totam quis iste deleniti dolore doloremque perspiciatis laudantium accusamus, possimus suscipit mollitia corporis! Temporibus ipsam maiores repudiandae sunt fugit accusantium non.
             </p>
+            <div class="skills_content max_width">
+                <section class="skills_coding">
+                    <h3 class="skills_title"> Coding Skills </h3>
+                    <ul>
+                        <li class="skills_bar">
+                            <div class="bar_text">
+                                <span> HTMLS </span>
+                                <span> 98% </span>
+                            </div>
+                            <div class="bar_bg">
+                                <div class="bar_value" style="width: 98%;"> </div>
+                            </div>
+                        </li>
+                        <li class="skills_bar">
+                            <div class="bar_text">
+                                <span> CSS3 </span>
+                                <span> 90% </span>
+                            </div>
+                            <div class="bar_bg">
+                                <div class="bar_value" style="width: 90%;"> </div>
+                            </div>
+                        </li>
+                        <li class="skills_bar">
+                            <div class="bar_text">
+                                <span> JavaScript </span>
+                                <span> 80% </span>
+                            </div>
+                            <div class="bar_bg">
+                                <div class="bar_value" style="width: 80%;"> </div>
+                            </div>
+                        </li>
+                        <li class="skills_bar">
+                            <div class="bar_text">
+                                <span> React </span>
+                                <span> 76% </span>
+                            </div>
+                            <div class="bar_bg">
+                                <div class="bar_value" style="width: 70%;"> </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="skills_tools">
+                    <h3 class="skills_title"> Tools </h3>
+                    <ul>
+                        <li class="bar_text_02"> Photoshop </li>
+                        <li class="bar_text_02"> Illust </li>
+                        <li class="bar_text_02"> Figma </li>
+                        <li class="bar_text_02"> ETC </li>
+                    </ul>
+                </section>
+                <section class="skills_etc">
+                    <h3 class="skills_title"> ETC </h3>
+                    <ul>
+                        <li> Piano </li>
+                        <li> Sport </li>
+                        <li> Running </li>
+                    </ul>
+                </section>
+            </div>
         </section>
 
         <!-- work시작-->
