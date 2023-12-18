@@ -13,3 +13,13 @@
     font-size: 1.5rem;
     margin: 0.5rem 0;
 }
+
+/* button 지정 */
+button {
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+button:focus {
+    outline: 1px solid transparent;
+}
