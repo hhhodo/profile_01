@@ -1,0 +1,29 @@
+.testimonial_all {
+    margin: 3rem;
+}
+    .testimonial_each {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .testimonial_each:nth-child(even) .testimonial_img {
+        order: 1;
+        /*order이 0이면 왼쪽, 1이면 오른쪽*/
+    }
+        .testimonial_img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+        }
+        .testimonial_bubble {
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 25px 50px -12px #3b82f620;
+        }
+            .testimonial_bubble_name {
+                color: var(--color-accent);
+                font-weight: bold;
+            }
