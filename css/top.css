@@ -1,4 +1,5 @@
 .arrow_up {
+    /*absolute와의 차이점..?*/
     position: fixed;
     text-align: center;
     right: 2rem;
@@ -9,5 +10,5 @@
     line-height: 3rem;
     border-radius: 100%;
     background-color: var(--color-primary);
-    
+
 }

@@ -51,7 +51,6 @@ a {
             display: flex;
             align-items: center;
             gap: 8px;
-            width: 20%;
         }
 
         .header_log_img {
@@ -65,7 +64,6 @@ a {
 .header_menu {
     display: flex;
     gap: 4px;
-    width: 80%;
     justify-content: flex-end;
 }
     .header_menu_item {

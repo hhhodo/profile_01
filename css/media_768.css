@@ -1,0 +1,105 @@
+@media all and (max-width: 768px) {
+    .section {
+        padding: 3rem 2rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+
+    .home {
+        padding: 3rem;
+    }
+
+    .home_title {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /*header부분*/
+    .header {
+        flex-flow: column;
+        align-items: start;
+        background-color: var(--color-primary);
+    }
+
+    /*반응형에서만 크기로 사용할 class*/
+    .header_nav {
+        width: 100%;
+    }
+        .header_menu {
+            display: none;
+            flex-direction: column; /*한줄에 하나씩 들어감*/
+            text-align: center;
+            padding: 1rem 4rem;
+            gap: 1rem;
+        }
+        /*js에서 사용*/
+        .header_menu.open {
+            display: flex;
+        }
+    .hamburger {
+        display: block;
+        color: var(--color-white);
+        font-size: 1.5rem;
+        position: absolute;
+        top: 1.4rem;
+        right: 1rem;
+        border: 0;
+    }
+        .hamburger>.material-symbols-outlined {
+            font-size: 1.5rem;
+        }
+    /*about부분*/
+    .about_content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_box {
+        width: 100%;
+    }
+    /*skills부분*/
+    .skills_content {
+        display: grid;
+        width: 100%;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        margin: 2rem auto;
+        grid-template-areas:
+        "a"
+        "b"
+        "c";
+    }
+    /*my work*/
+    .category {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        .category_button {
+            width: 100%;
+        }
+        /*project 8개*/
+        .project_all {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    /*testimonial*/
+    .testimonial_each {
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial_each:nth-child(even) .testimonial_img {
+        order: 1;
+    }
+    /*top버튼*/
+    .arrow_up {
+        right: 1rem;
+        bottom: 1rem;
+        transform: scale(0.8);
+    }
+}
