@@ -9,7 +9,8 @@
         align-items: center;
         margin-bottom: 2rem;
     }
-    .testimonial_each:nth-child(even) .testimonial_img {
+    /*even은 짝수번째, odd는 홀수번째*/
+    .testimonial_each:nth-child(odd) .testimonial_img {
         order: 1;
         /*order이 0이면 왼쪽, 1이면 오른쪽*/
     }
