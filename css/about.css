@@ -22,6 +22,9 @@
         -webkit-box-shadow: 2px 14px 86px -20px rgba(0,0,0,0.29);
         -moz-box-shadow: 2px 14px 86px -20px rgba(0,0,0,0.29);
     }
+    .about_box.box-yellow {
+        background-color: #f90;
+    }
     /*활용도가 높은 코드 중 하나*/
             .about_box:hover .about_icon {
                 transform: rotate(-15deg) scale(1.2);

@@ -1,7 +1,15 @@
 #contact {
     background-color: var(--color-primary);
-    color: var(--color-text);
+    /* color: var(--color-text); */
 }
+    .footer_text_01 {
+        color: #fff;
+    }
+    .footer_text_02 {
+        color: #0ff;
+    }
+
+
 .contact_all {
     display: flex;
     justify-content: center;
@@ -19,3 +27,7 @@
     .contact_icon:hover {
         color: var(--color-accent);
     }
+
+.section_title {
+    cursor: pointer;
+}
