@@ -10,5 +10,6 @@
     line-height: 3rem;
     border-radius: 100%;
     background-color: var(--color-primary);
-
+    transition: all 300ms;
+    opacity: 0;
 }

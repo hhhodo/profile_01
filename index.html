@@ -36,9 +36,10 @@
     <link href="./css/footer.css" rel="stylesheet">
     <link href="./css/media_768.css" rel="stylesheet">
     <!--js링크-->
-    <script type="module" src="./js/main.js" defer>
-
-    </script>
+    <script type="module" src="./js/main.js" defer> </script>
+    <script type="module" src="./js/main_03.js" defer> </script>
+    <script type="module" src="./js/main_04.js" defer> </script>
+    <script type="module" src="./js/main_05.js" defer> </script>
 </head>
 <body>
     <!--헤더 시작-->
@@ -197,13 +198,13 @@
                 Projects
             </p>
             <ul class="category">
-                <li><button class="category_button category_selected"> ALL <span class="work_count">8</span></button></li>
-                <li><button class="category_button"> Front-end <span class="work_count">3</span></button></li>
-                <li><button class="category_button"> Design <span class="work_count">3</span></button></li>
-                <li><button class="category_button"> Mobile <span class="work_count">2</span></button></li>
+                <li><button class="category_button category_selected" data-category="all"> ALL <span class="work_count">8</span></button></li>
+                <li><button class="category_button" data-category="front-end"> Front-end <span class="work_count">3</span></button></li>
+                <li><button class="category_button" data-category="design"> Design <span class="work_count">3</span></button></li>
+                <li><button class="category_button" data-category="mobile"> Mobile <span class="work_count">2</span></button></li>
             </ul>
             <ul class="project_all">
-                <li class="project">
+                <li class="project" data-type="front-end">
                     <a href="#" target="_blank">
                         <img src="./images/project_01.png" alt="project_01 이미지" class="project_img">
 
@@ -213,7 +214,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="front-end">
                     <a href="#" target="_blank">
                         <img src="./images/project_02.png" alt="project_02 이미지" class="project_img">
 
@@ -223,7 +224,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="front-end">
                     <a href="#" target="_blank">
                         <img src="./images/project_03.png" alt="project_03 이미지" class="project_img">
 
@@ -233,7 +234,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img src="./images/project_04.png" alt="project_04 이미지" class="project_img">
 
@@ -243,7 +244,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img src="./images/project_05.png" alt="project_05 이미지" class="project_img">
 
@@ -253,7 +254,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="design">
                     <a href="#" target="_blank">
                         <img src="./images/project_06.png" alt="project_06 이미지" class="project_img">
 
@@ -263,7 +264,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="mobile">
                     <a href="#" target="_blank">
                         <img src="./images/project_07.png" alt="project_07 이미지" class="project_img">
 
@@ -273,7 +274,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="project">
+                <li class="project" data-type="mobile">
                     <a href="#" target="_blank">
                         <img src="./images/project_08.png" alt="project_0 이미지" class="project_img">
 
