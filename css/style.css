@@ -18,6 +18,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'roboto', sans-serif;
     font-size: 10pt;

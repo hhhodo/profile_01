@@ -26,4 +26,11 @@ categories.addEventListener('click', (event) => {
     }
     })
 
+    const activeButton = document.querySelector('.category_selected');
+    activeButton.classList.remove('category_selected')
+
+    event.target.classList.add('category_selected');
+    console.log(event.target);
+
 })
+
